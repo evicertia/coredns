@@ -4,6 +4,7 @@ package plugin
 
 import (
 	// Include all plugins.
+	_ "github.com/coredns/alternate"
 	_ "github.com/coredns/caddy/onevent"
 	_ "github.com/coredns/coredns/plugin/acl"
 	_ "github.com/coredns/coredns/plugin/any"
@@ -56,4 +57,12 @@ import (
 	_ "github.com/coredns/coredns/plugin/tsig"
 	_ "github.com/coredns/coredns/plugin/view"
 	_ "github.com/coredns/coredns/plugin/whoami"
+	_ "github.com/coredns/records"
+
+	_ "github.com/kinjelom/coredns-recursor"
+	_ "github.com/networkservicemesh/fanout"
+	_ "github.com/oz123/coredns-netbox-plugin"
+	_ "github.com/serverwentdown/alias"
+	_ "github.com/tmeckel/coredns-finalizer"
+	_ "github.com/ziollek/gathersrv"
 )

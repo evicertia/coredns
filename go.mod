@@ -10,23 +10,31 @@ require (
 	github.com/Azure/go-autorest/autorest/azure/auth v0.5.13
 	github.com/apparentlymart/go-cidr v1.1.0
 	github.com/aws/aws-sdk-go v1.55.5
+	github.com/coredns/alternate v0.2.12
 	github.com/coredns/caddy v1.1.1
+	github.com/coredns/records v0.0.0-20230310133434-a3157e710d9e
 	github.com/dnstap/golang-dnstap v0.4.0
 	github.com/expr-lang/expr v1.16.9
 	github.com/farsightsec/golang-framestream v0.3.0
 	github.com/go-logr/logr v1.4.2
 	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645
 	github.com/infobloxopen/go-trees v0.0.0-20200715205103-96a057b8dfb9
+	github.com/kinjelom/coredns-recursor v1.1.3
 	github.com/matttproud/golang_protobuf_extensions v1.0.4
 	github.com/miekg/dns v1.1.62
+	github.com/networkservicemesh/fanout v1.11.3
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/openzipkin-contrib/zipkin-go-opentracing v0.5.0
 	github.com/openzipkin/zipkin-go v0.4.3
 	github.com/oschwald/geoip2-golang v1.11.0
+	github.com/oz123/coredns-netbox-plugin v0.4.0
 	github.com/prometheus/client_golang v1.20.4
 	github.com/prometheus/client_model v0.6.1
 	github.com/prometheus/common v0.59.1
 	github.com/quic-go/quic-go v0.47.0
+	github.com/serverwentdown/alias v0.0.0-20230910163757-bf1b867dd4e5
+	github.com/tmeckel/coredns-finalizer v0.0.0-20230427174020-dc4780617144
+	github.com/ziollek/gathersrv v1.0.2
 	go.etcd.io/etcd/api/v3 v3.5.16
 	go.etcd.io/etcd/client/v3 v3.5.16
 	golang.org/x/crypto v0.27.0
@@ -64,7 +72,7 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/coreos/go-semver v0.3.0 // indirect
-	github.com/coreos/go-systemd/v22 v22.3.2 // indirect
+	github.com/coreos/go-systemd/v22 v22.3.3-0.20220203105225-a9a7ef127534 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/dimchansky/utfbom v1.1.1 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
